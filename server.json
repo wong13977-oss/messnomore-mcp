@@ -1,0 +1,18 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.github.wong13977-oss/messnomore-data-tools",
+    "title": "MessNoMore Data Tools",
+    "description": "Visa sponsors, school term dates, halal certificates, HS codes, baggage rules and IAB categories.",
+    "version": "1.0.0",
+    "websiteUrl": "https://wong13977-oss.github.io/mcp-server/",
+    "repository": {
+        "url": "https://github.com/wong13977-oss/messnomore-mcp",
+        "source": "github"
+    },
+    "remotes": [
+        {
+            "type": "streamable-http",
+            "url": "https://mcp.apify.com/?tools=messnomore/cfp-radar,messnomore/school-holidays-api,messnomore/visa-sponsor-checker,messnomore/halal-certificate-checker,messnomore/airline-baggage-allowance,messnomore/hs-code-classifier,messnomore/sea-listing-localizer,messnomore/website-categorization,get-actor-run,get-dataset-items"
+        }
+    ]
+}
