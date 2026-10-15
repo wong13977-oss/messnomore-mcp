@@ -2,8 +2,8 @@
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
     "name": "io.github.wong13977-oss/messnomore-data-tools",
     "title": "MessNoMore Data Tools",
-    "description": "Visa sponsors, school holidays, halal checks, HS codes, baggage rules, IAB categories, mobile plans.",
-    "version": "1.1.0",
+    "description": "Visa sponsors, school holidays, halal, HS codes, baggage, IAB categories, mobile plans, recipes.",
+    "version": "1.2.0",
     "websiteUrl": "https://wong13977-oss.github.io/mcp-server/",
     "repository": {
         "url": "https://github.com/wong13977-oss/messnomore-mcp",
@@ -12,7 +12,7 @@
     "remotes": [
         {
             "type": "streamable-http",
-            "url": "https://mcp.apify.com/?tools=messnomore/cfp-radar,messnomore/school-holidays-api,messnomore/visa-sponsor-checker,messnomore/halal-certificate-checker,messnomore/airline-baggage-allowance,messnomore/hs-code-classifier,messnomore/sea-listing-localizer,messnomore/website-categorization,messnomore/mobile-plans-tracker,get-actor-run,get-dataset-items"
+            "url": "https://mcp.apify.com/?tools=messnomore/cfp-radar,messnomore/school-holidays-api,messnomore/visa-sponsor-checker,messnomore/halal-certificate-checker,messnomore/airline-baggage-allowance,messnomore/hs-code-classifier,messnomore/sea-listing-localizer,messnomore/website-categorization,messnomore/mobile-plans-tracker,messnomore/video-to-recipe,get-actor-run,get-dataset-items"
         }
     ]
 }
