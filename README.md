@@ -93,6 +93,15 @@ ChatGPT cannot change a connector's tools after it is created; create a new conn
 Send your Apify API token as a header: `Authorization: Bearer YOUR_APIFY_TOKEN` (from Apify Console →
 Settings → API & Integrations).
 
+## Agent skill
+
+The free [Data Tools Pack skill on Agensi](https://www.agensi.io/skills/data-tools-pack-visa-sponsors-hs-codes-halal-holidays)
+is a SKILL.md for Claude Code, Cursor, Codex and other agents that support skills. Install it next to this server: the
+skill holds the instructions and the server runs the lookups. It tells the agent which tool fits a question, caps each
+run to the results it needs, asks before any run likely to cost more than about $1, waits for long runs without
+starting duplicates, and answers with source links. Single-tool skills are listed on the
+[creator page](https://www.agensi.io/creators/wong).
+
 ## Example prompts
 
 - "Is Revolut a licensed UK visa sponsor, and for which routes?"
@@ -108,6 +117,7 @@ Settings → API & Integrations).
 ## Guides and free data
 
 - Setup guide: https://wong13977-oss.github.io/mcp-server/
+- Agent skill (free): https://www.agensi.io/skills/data-tools-pack-visa-sponsors-hs-codes-halal-holidays
 - Guides that explain the free official way to get each answer: https://wong13977-oss.github.io/
 - Free school term dates sample dataset: https://github.com/wong13977-oss/school-term-dates
 
